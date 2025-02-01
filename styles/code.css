@@ -1,0 +1,29 @@
+:root {
+    --lang-type: #5473ff;
+    --lang-char: #23aa23;
+    --lang-number: #ff3f3f;
+    --lang-comment: #888;
+    --lang-keyword: #bf3fe6;
+}
+
+.lang-type {
+    color: var(--lang-type);
+    font-weight: bold;
+}
+
+.lang-char {
+    color: var(--lang-char);
+}
+
+.lang-number {
+    color: var(--lang-number);
+}
+
+.lang-comment {
+    color: var(--lang-comment);
+}
+
+.lang-keyword {
+    color: var(--lang-keyword);
+    font-weight: bold;
+}

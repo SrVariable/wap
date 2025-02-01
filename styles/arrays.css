@@ -1,0 +1,30 @@
+.array {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.array section {
+    display: flex;
+}
+
+.array-cell, .array-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid light-dark(var(--fg-primary-color-light), var(--fg-primary-color-dark));
+    background-color: light-dark(var(--bg-primary-color-light), var(--bg-primary-color-dark));
+    text-align: center;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.array-index {
+    border: 1px solid transparent;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-top: -10px;
+}
